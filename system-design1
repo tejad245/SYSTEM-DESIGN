@@ -1,0 +1,16 @@
+Vertical Scaling -> optimize processes to increase throughput using the same resources
+ex: The pizze restuarent has single chef , with increasing orders. He can paid more and so he starts preparing pizza biases at 4am morning to keep biases handy increasing throughput of order delivery.
+act non peak hours
+
+Resilint -> Keep backups to avoid single point of faailure
+if chef falls in sick one day , then it is single point of failure. keep backup check to avoid it
+its kinda of mater-slave architecture , when master is off server comes in
+
+more chefs hired and backus
+Horizaontal scaling -> get more resources , buying more machines to get work done
+
+Microservice architecture -> 
+supppose as chefs increase chef1 does pizza well, chef2 makes garlic bread well aand chef3 mkes pizza well.
+so whenever a garlic bread order comes in we direct to chef2 for efficieny and pizza to chef1 and chef3. in case if  chefs are more
+we categorize group of chefs who are good at galic bread and another group of chefs good at pizza. and direct the orders to those groups based on that order
+so here comes the picture of microservcies where each service has its own function to do
